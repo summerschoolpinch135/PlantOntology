@@ -1,0 +1,63 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "plantontology"
+version = "0.1.0"
+description = "Open-source plant knowledge graph — right plant, right place, powered by AI"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "AlexLee", email = "alex@alexai.kr" }]
+requires-python = ">=3.11"
+keywords = ["plants", "ontology", "knowledge-graph", "landscape", "neo4j", "ai", "rag"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+  "fastapi>=0.115.0",
+  "uvicorn[standard]>=0.30.0",
+  "neo4j>=5.20.0",
+  "pydantic>=2.7.0",
+  "python-dotenv>=1.0.0",
+  "httpx>=0.27.0",
+  "rich>=13.0.0",
+  "click>=8.1.0",
+  "mcp>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0",
+  "pytest-asyncio>=0.23.0",
+  "httpx>=0.27.0",
+  "ruff>=0.4.0",
+  "mypy>=1.10.0",
+]
+ingest = [
+  "requests>=2.32.0",
+  "pandas>=2.2.0",
+  "openpyxl>=3.1.0",
+]
+
+[project.scripts]
+plantontology = "plantontology.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/alexai-mcp/PlantOntology"
+Repository = "https://github.com/alexai-mcp/PlantOntology"
+Issues = "https://github.com/alexai-mcp/PlantOntology/issues"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
