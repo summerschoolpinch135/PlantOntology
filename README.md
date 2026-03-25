@@ -1,11 +1,16 @@
-# 🌿 PlantOntology
+<div align="center">
+  <img src="docs/logo.png" alt="PlantOntology" width="280">
 
-> The world's first open-source **plant knowledge graph** — built by landscape professionals, for everyone.
+  # PlantOntology
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Neo4j](https://img.shields.io/badge/Neo4j-Graph%20DB-blue)](https://neo4j.com)
-[![Python](https://img.shields.io/badge/Python-3.11%2B-yellow)](https://python.org)
-[![MCP](https://img.shields.io/badge/MCP-Claude%20Code-purple)](https://modelcontextprotocol.io)
+  **The world's first open-source plant knowledge graph** — built by landscape professionals, for everyone.
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+  [![Neo4j](https://img.shields.io/badge/Neo4j-Graph%20DB-blue)](https://neo4j.com)
+  [![Python](https://img.shields.io/badge/Python-3.11%2B-yellow)](https://python.org)
+  [![MCP](https://img.shields.io/badge/MCP-Claude%20Code-purple)](https://modelcontextprotocol.io)
+  [![Species](https://img.shields.io/badge/Species-10%2C888+-green.svg)](#)
+</div>
 
 **PlantOntology** is an open-source knowledge graph that models plants, ecosystems, and landscape design relationships — making 19 years of professional landscape expertise available to everyone through AI.
 
@@ -104,6 +109,17 @@ uvicorn api.main:app --reload
   }
 }
 ```
+
+---
+
+## 📚 Documentation
+
+- **[Getting Started](GETTING_STARTED.md)** — Setup and first queries
+- **[Contributing Guide](CONTRIBUTING.md)** — How to contribute
+- **[Changelog](CHANGELOG.md)** — What's new in each release
+- **[OpenCrab Grammar](docs/ONTOLOGY.md)** — 9-space semantic architecture
+- **API Reference** — REST API endpoints (coming soon)
+- **[Neo4j Setup](docs/NEO4J_SETUP.md)** — Full database configuration
 
 ---
 
