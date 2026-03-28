@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/api.ts","./src/main.tsx","./src/types.ts","./src/components/carboncalculator.tsx","./src/components/filterpanel.tsx","./src/components/searchbar.tsx","./src/components/speciescard.tsx","./src/components/speciesmodal.tsx","./src/components/statspage.tsx","./src/components/tolerancebar.tsx"],"version":"5.9.3"}
