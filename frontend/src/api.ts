@@ -60,3 +60,37 @@ export async function searchByQuery(q: string, limit = 10): Promise<Species[]> {
   )
   return res.results
 }
+
+// ── Supplementary APIs ──────────────────────────────────────────────────
+
+import type {
+  ClimateIndicator,
+  Drawing,
+  MaterialPrice,
+  Nursery,
+  SupplementaryListResponse,
+} from './types'
+
+export async function getNurseries(q?: string, species_id?: string, limit = 50, offset = 0) {
+  return fetchJSON<SupplementaryListResponse<Nursery>>(
+    `${API_BASE}/api/nurseries${buildQuery({ q, species_id, limit, offset })}`
+  )
+}
+
+export async function getDrawings(q?: string, category?: string, format?: string, limit = 50, offset = 0) {
+  return fetchJSON<SupplementaryListResponse<Drawing>>(
+    `${API_BASE}/api/drawings${buildQuery({ q, category, format, limit, offset })}`
+  )
+}
+
+export async function getClimateIndicators(q?: string, limit = 100, offset = 0) {
+  return fetchJSON<SupplementaryListResponse<ClimateIndicator>>(
+    `${API_BASE}/api/climate-indicators${buildQuery({ q, limit, offset })}`
+  )
+}
+
+export async function getMaterialPrices(q?: string, limit = 50, offset = 0) {
+  return fetchJSON<SupplementaryListResponse<MaterialPrice>>(
+    `${API_BASE}/api/prices${buildQuery({ q, limit, offset })}`
+  )
+}

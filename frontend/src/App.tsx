@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'
-import { Leaf, Calculator, BarChart2, Github, Users } from 'lucide-react'
+import { Leaf, Calculator, BarChart2, Github, Users, Database } from 'lucide-react'
 
 import { searchSpecies } from './api'
 import type { Species, SearchFilters, SearchResponse } from './types'
@@ -13,6 +13,7 @@ import SpeciesCard from './components/SpeciesCard'
 import SpeciesModal from './components/SpeciesModal'
 import CarbonCalculator from './components/CarbonCalculator'
 import StatsPage from './components/StatsPage'
+import SupplementaryPage from './components/SupplementaryPage'
 
 const DEFAULT_FILTERS: SearchFilters = {
   q: '',
@@ -214,6 +215,10 @@ function Navbar() {
           <BarChart2 size={15} />
           {t.nav_stats}
         </NavLink>
+        <NavLink to="/data">
+          <Database size={15} />
+          {t.nav_supplementary || '부가 데이터'}
+        </NavLink>
 
         {/* 구분선 */}
         <span className="nav-divider" />
@@ -269,6 +274,7 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/calculator" element={<CarbonCalculator />} />
           <Route path="/stats" element={<StatsPage />} />
+          <Route path="/data" element={<SupplementaryPage />} />
         </Routes>
 
         <footer className="footer">

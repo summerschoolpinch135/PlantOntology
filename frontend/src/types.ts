@@ -86,3 +86,44 @@ export interface CalcEntry {
   species: Species
   count: number
 }
+
+// ── 보조 데이터 (Supplementary Data) ──────────────────────────────────
+
+export interface Nursery {
+  farm_name: string
+  address: string
+  main_species: string
+  matched_species_ids?: string[]
+  [key: string]: any
+}
+
+export interface Drawing {
+  code: string
+  filename: string
+  category: string
+  format: string
+  [key: string]: any
+}
+
+export interface ClimateIndicator {
+  korean_name: string
+  scientific_name: string
+  [key: string]: any
+}
+
+export interface MaterialPrice {
+  name: string
+  spec: string
+  price: number | string
+  unit: string
+  [key: string]: any
+}
+
+export interface SupplementaryListResponse<T> {
+  total: number
+  results: T[]
+  page_info?: PageInfo
+  source?: string
+  date?: string
+}
+
