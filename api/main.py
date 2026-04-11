@@ -8,6 +8,7 @@ from fastapi.staticfiles import StaticFiles
 
 from api.routers import recommend
 from api.routers import species as species_router
+from api.routers import supplementary
 
 app = FastAPI(
     title="PlantOntology API",
@@ -25,6 +26,7 @@ app.add_middleware(
 
 app.include_router(species_router.router, prefix="/species", tags=["Species"])
 app.include_router(recommend.router, prefix="/recommend", tags=["Recommendations"])
+app.include_router(supplementary.router, prefix="/api", tags=["Supplementary"])
 
 
 @app.get("/api/health")
