@@ -1,0 +1,778 @@
+[
+  {
+    "seq": 1,
+    "korean_name": "노루궁뎅이",
+    "scientific_name": "Hericium erinaceus (Bull.) Pers. 1797",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 2,
+    "korean_name": "마귀광대버섯",
+    "scientific_name": "Amanita pantherina (DC.) Krombh. 1846",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 3,
+    "korean_name": "큰갓버섯",
+    "scientific_name": "Macrolepiota procera (Scop.) Singer 1948",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 4,
+    "korean_name": "팽나무버섯",
+    "scientific_name": "Flammulina velutipes (Curtis) Singer 1951",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 5,
+    "korean_name": "황소비단그물버섯",
+    "scientific_name": "Suillus bovinus (L.) Roussel 1806",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 6,
+    "korean_name": "청각",
+    "scientific_name": "Codium fragile (Suringar) Hariot 1889",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 7,
+    "korean_name": "작은구슬산호말",
+    "scientific_name": "Corallina pilulifera Postels & Ruprecht 1840",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 8,
+    "korean_name": "지충이",
+    "scientific_name": "Sargassum thunbergii (Mertens ex Roth) Kuntze 1880",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 9,
+    "korean_name": "도깨비쇠고비",
+    "scientific_name": "Cyrtomium falcatum (L.f.) C. Presl",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 10,
+    "korean_name": "발풀고사리",
+    "scientific_name": "Dicranopteris linearis (Burm.f.) Underw.",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 11,
+    "korean_name": "봉의꼬리",
+    "scientific_name": "Pteris multifida Poir.",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 12,
+    "korean_name": "실고사리",
+    "scientific_name": "Lygodium japonicum (Thunb.) Sw.",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 13,
+    "korean_name": "콩짜개덩굴",
+    "scientific_name": "Lemmaphyllum microphyllum C. Presl",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 14,
+    "korean_name": "개비자나무",
+    "scientific_name": "Cephalotaxus harringtonia (Knight ex Forbes) K. Koch",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 15,
+    "korean_name": "구상나무",
+    "scientific_name": "Abies koreana E. H. Wilson",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 16,
+    "korean_name": "개구리발톱",
+    "scientific_name": "Semiaquilegia adoxoides (DC.) Makino",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 17,
+    "korean_name": "개미탑",
+    "scientific_name": "Haloragis micrantha (Thunb.) R. Br.",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 18,
+    "korean_name": "거지덩굴",
+    "scientific_name": "Cayratia japonica (Thunb.) Gagnep.",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 19,
+    "korean_name": "검노린재",
+    "scientific_name": "Symplocos tanakana Nakai",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 20,
+    "korean_name": "계요등",
+    "scientific_name": "Paederia scandens (Lour.) Merr.",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 21,
+    "korean_name": "굴거리나무",
+    "scientific_name": "Daphniphyllum macropodum Miq.",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 22,
+    "korean_name": "금창초",
+    "scientific_name": "Ajuga decumbens Thunb.",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 23,
+    "korean_name": "까치밥나무",
+    "scientific_name": "Ribes mandshuricum (Maxim.) Kom.",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 24,
+    "korean_name": "꿩의바람꽃",
+    "scientific_name": "Anemone raddeana Regel",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 25,
+    "korean_name": "낚시제비꽃",
+    "scientific_name": "Viola grypoceras A. Gray",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 26,
+    "korean_name": "노각나무",
+    "scientific_name": "Stewartia koreana Nakai ex Rehder",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 27,
+    "korean_name": "다정큼나무",
+    "scientific_name": "Rhaphiolepis indicavar.umbellata (Thunb.) Ohashi",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 28,
+    "korean_name": "돈나무",
+    "scientific_name": "Pittosporum tobira (Thunb.) W. T. Aiton",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 29,
+    "korean_name": "등대풀",
+    "scientific_name": "Euphorbia helioscopia L.",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 30,
+    "korean_name": "멀구슬나무",
+    "scientific_name": "Melia azedarach L.",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 31,
+    "korean_name": "멀꿀",
+    "scientific_name": "Stauntonia hexaphylla Decne.",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 32,
+    "korean_name": "보리밥나무",
+    "scientific_name": "Elaeagnus macrophylla Thunb.",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 33,
+    "korean_name": "사람주나무",
+    "scientific_name": "Neoshirakia japonica (Siebold & Zucc.) Esser",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 34,
+    "korean_name": "사스레피나무",
+    "scientific_name": "Eurya japonica Thunb.",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 35,
+    "korean_name": "상산",
+    "scientific_name": "Orixa japonica Thunb.",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 36,
+    "korean_name": "송악",
+    "scientific_name": "Hedera rhombea (Miq.) Bean",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 37,
+    "korean_name": "수리딸기",
+    "scientific_name": "Rubus corchorifolius L. f.",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 38,
+    "korean_name": "얼레지",
+    "scientific_name": "Erythronium japonicum Decne.",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 40,
+    "korean_name": "왕모시풀",
+    "scientific_name": "Boehmeria pannosa Nakai & Satake ex Oka",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 41,
+    "korean_name": "자금우",
+    "scientific_name": "Ardisia japonica (Thunb.) Blume",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 42,
+    "korean_name": "자주괴불주머니",
+    "scientific_name": "Corydalis incisa (Thunb.) Pers.",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 43,
+    "korean_name": "참배암차즈기",
+    "scientific_name": "Salvia chanroenica Nakai",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 44,
+    "korean_name": "천선과나무",
+    "scientific_name": "Ficus erecta Thunb.",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 46,
+    "korean_name": "층꽃나무",
+    "scientific_name": "Caryopteris incana (Thunb. ex Houtt.) Miq.",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 47,
+    "korean_name": "큰앵초",
+    "scientific_name": "Primula jesoana var. pubescens (Takeda) Takeda & H. Hara",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 48,
+    "korean_name": "큰천남성",
+    "scientific_name": "Arisaema ringens (Thunb.) Schott",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 50,
+    "korean_name": "큰입술갈고둥",
+    "scientific_name": "Nerita albicilla Linnaeus, 1758",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 51,
+    "korean_name": "긴호랑거미",
+    "scientific_name": "Argiope bruennichi (Scopoli, 1772)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 52,
+    "korean_name": "대륙납거미",
+    "scientific_name": "Uroctea lesserti Schenkel, 1936",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 53,
+    "korean_name": "말꼬마거미",
+    "scientific_name": "Parasteatoda tepidariorum (C. L. Koch, 1841)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 54,
+    "korean_name": "산왕거미",
+    "scientific_name": "Araneus ventricosus (L. Koch, 1878)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 55,
+    "korean_name": "검은큰따개비",
+    "scientific_name": "Tetraclita japonica Pilsbry, 1916",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 56,
+    "korean_name": "각시메뚜기",
+    "scientific_name": "Patanga japonica (Bolívar, 1898)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 57,
+    "korean_name": "남방노랑나비",
+    "scientific_name": "Eurema mandarina (del'Orza, 1869)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 58,
+    "korean_name": "남색이마잠자리",
+    "scientific_name": "Brachydiplax chalybea flavovittata Ris, 1911",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 59,
+    "korean_name": "넓적배사마귀",
+    "scientific_name": "Hierodula patellifera (Serville, 1839)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 60,
+    "korean_name": "대륙좀잠자리",
+    "scientific_name": "Sympetrum striolatum (Charpentier, 1840)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 61,
+    "korean_name": "말매미",
+    "scientific_name": "Cryptotympana atrata (Fabricius, 1775)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 62,
+    "korean_name": "먹그림나비",
+    "scientific_name": "Dichorragia nesimachus (Doyère, 1840)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 63,
+    "korean_name": "무늬박이제비나비",
+    "scientific_name": "Papilio helenus Linnaeus, 1758",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 64,
+    "korean_name": "물결부전나비",
+    "scientific_name": "Lampides boeticus (Linnaeus, 1767)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 65,
+    "korean_name": "방패광대노린재",
+    "scientific_name": "Cantao ocellatus (Thunberg, 1784)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 66,
+    "korean_name": "북방아시아실잠자리",
+    "scientific_name": "Ischnura elegans (Vander Linden, 1820)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 67,
+    "korean_name": "뾰족부전나비",
+    "scientific_name": "Curetis acuta Moore, 1877",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 68,
+    "korean_name": "사슴풍뎅이",
+    "scientific_name": "Dicronocephalus adamsi Pascoe, 1863",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 69,
+    "korean_name": "연분홍실잠자리",
+    "scientific_name": "Ceriagrion nipponicum Asahina, 1967",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 70,
+    "korean_name": "좀매부리",
+    "scientific_name": "Euconocephalus nasutus (Thunberg, 1815)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 71,
+    "korean_name": "철써기",
+    "scientific_name": "Mecopoda niponensis (DeHaan, 1842)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 72,
+    "korean_name": "큰그물강도래",
+    "scientific_name": "Pteronarcys sachalina Klapalek, 1908",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 73,
+    "korean_name": "푸른아시아실잠자리",
+    "scientific_name": "Ischnura senegalensis (Rambur, 1842)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 74,
+    "korean_name": "푸른큰수리팔랑나비",
+    "scientific_name": "Choaspes benjaminii (Guérin-Méneville, 1843)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 75,
+    "korean_name": "금강모치",
+    "scientific_name": "Rhynchocypris kumgangensis (Kim, 1980)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 76,
+    "korean_name": "북방종개",
+    "scientific_name": "Iksookimia pacifica (Kim, Park and Nalbant, 1980)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 77,
+    "korean_name": "빙어",
+    "scientific_name": "Hypomesus nipponensis McAllister, 1963",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 78,
+    "korean_name": "산천어/송어",
+    "scientific_name": "Oncorhynchus masou masou (Brevoort, 1856)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 79,
+    "korean_name": "연어",
+    "scientific_name": "Oncorhynchus keta (Walbaum, 1792)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 80,
+    "korean_name": "계곡산개구리",
+    "scientific_name": "Rana huanrenensis Fei, Ye and Huang, 1991",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 81,
+    "korean_name": "큰산개구리",
+    "scientific_name": "Rana uenoi (Matsui. 2014)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 82,
+    "korean_name": "한국꼬리치레도롱뇽",
+    "scientific_name": "Onychodactylus koreanus Povarkov, Che, Min, Kuro-o, Yan, Li Lizuaka and Vieites, 2012",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 83,
+    "korean_name": "검은이마직박구리",
+    "scientific_name": "Pycnonotus sinensis (Gmelin, 1789)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 84,
+    "korean_name": "꾀꼬리",
+    "scientific_name": "Oriolus chinensis Linnaeus, 1766",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 85,
+    "korean_name": "노랑배진박새",
+    "scientific_name": "Parus venustulus Swinhoe, 1870",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 86,
+    "korean_name": "대륙검은지빠귀",
+    "scientific_name": "Turdus merula Linnaeus, 1758",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 87,
+    "korean_name": "동박새",
+    "scientific_name": "Zosterops japonicus Temminck & Schlegel, 1845",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 88,
+    "korean_name": "되지빠귀",
+    "scientific_name": "Turdus hortulorum Sclater, 1863",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 89,
+    "korean_name": "붉은부리찌르레기",
+    "scientific_name": "Sturnus sericeus (Gmelin, 1789)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 90,
+    "korean_name": "뻐꾸기",
+    "scientific_name": "Cuculus canorus Linnaeus, 1758",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 91,
+    "korean_name": "산솔새",
+    "scientific_name": "Phylloscopus coronatus (Temminck & Schlegel, 1847)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 92,
+    "korean_name": "소쩍새",
+    "scientific_name": "Otus sunia (Hodgson, 1836)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 93,
+    "korean_name": "쇠물닭",
+    "scientific_name": "Gallinula chloropus (Linnaeus, 1758)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 94,
+    "korean_name": "쇠백로",
+    "scientific_name": "Egretta garzetta (Linnaeus, 1776)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 95,
+    "korean_name": "왜가리",
+    "scientific_name": "Ardea cinerea Linnaeus, 1758",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 96,
+    "korean_name": "제비",
+    "scientific_name": "Hirundo rustica Linnaeus, 1758",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 97,
+    "korean_name": "청둥오리",
+    "scientific_name": "Anas platyrhynchos Linnaeus, 1758",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 98,
+    "korean_name": "해오라기",
+    "scientific_name": "Nycticorax nycticorax (Linnaeus, 1758)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 99,
+    "korean_name": "황로",
+    "scientific_name": "Bubulcus ibis (Linnaeus, 1758)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  },
+  {
+    "seq": 100,
+    "korean_name": "흰날개해오라기",
+    "scientific_name": "Ardeola bacchus (Bonaparte, 1855)",
+    "source": "국가 기후변화 생물지표종 100종 (2024)",
+    "climate_indicator": true,
+    "domain": "climate_biology_kr"
+  }
+]
